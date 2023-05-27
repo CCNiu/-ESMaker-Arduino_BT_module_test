@@ -7,7 +7,7 @@
 //AT+PSWD=配對碼 可以設定配對碼
 //AT+UART=鮑率,停止位元,同位位元 可以設定鮑率
 #include <SoftwareSerial.h>
-SoftwareSerial BT(10, 11);(接收腳,傳送腳)
+SoftwareSerial BT(10, 11); //(接收腳,傳送腳)
 char val;
 void setup(){
   // put your setup code here, to run once:
